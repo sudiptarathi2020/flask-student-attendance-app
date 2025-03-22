@@ -7,7 +7,7 @@ pipeline {
 
     // Trigger the pipeline every 5 minutes if there are changes in the repository
     triggers {
-        pollSCM('H/5 * * * *')
+        pollSCM('H/20 * * * *')
     }
 
     stages {
